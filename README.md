@@ -13,3 +13,20 @@ Okay Okay i think it kinda clicked lowkey for me, so dynamic programming problem
 In dynamic programming we talk bout subproblems not sub steps
 So in dynamic programming there is no thinking in the code like unless its to end the recursion its we dont ryt if statements to solve the problem its just the same steps repeating.   
 
+#### skipping the fibo problem cause thats too easy 
+
+#### climbing stars problem and problem patterns in dynamic programming
+def howconstruct(target,wordlist):
+    if target=="":
+        return []
+    newwordlist=[]
+    for x in wordlist:
+        if target.startswith(x): 
+            remainder=target[len(x):]
+            newwordlist=howconstruct(remainder,wordlist)
+            newwordlist.append(x)
+
+    return newwordlist 
+
+print(howconstruct("oshan",["osh","an","a"]))
+
