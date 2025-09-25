@@ -29,5 +29,10 @@ for somereason i build the solution in a iterative way and couldnt find why it d
 always go recursive at 1st, brute force its bout trying all the solutions straight up 
 # Unique Paths
 ## Already done this so its fine
-
+# Unique Path2
+## What went wrong
+i knew how t solve it but couldnt implemente for somereason
+## Lessons Learned
+the counter index we use to keep track of the list acts the same in this but its 2 counts cause there are nested lists 
+# Min Grid Traveler
 
